@@ -10,7 +10,7 @@ Think of it like this. It would really suck if your apartment flooded. Everythin
 Think of the building like your project. If everyone lived in one big room, that flood leads to frustration for everyone. 
 That's why using the MVC can be so beneficial. The MVC allows you to structure your project into different sections to avoid issues that wreck the whole project. Let's take a deep dive into what the MVC has to offer.
 
-![Alt text](images/mvc-diagram.png)
+![Alt text](images/i122kst21.svg)
 
 More rambling here...
 
