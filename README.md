@@ -12,7 +12,7 @@ Think of it like this. It would really suck if your apartment flooded. Everythin
 Think of the building like your project. If everyone lived in one big room, that flood leads to frustration for everyone. 
 That's why using the MVC can be so beneficial. The MVC allows you to structure your project into different sections to avoid issues that wreck the whole project. Let's take a deep dive into what the MVC has to offer.
 
-![Alt text](images/mvc.png)
+![Alt text](images/i122kst21.svg)
 
 In the image above, we can see the different parts of the MVC. We'll  take a look at each of them now.
 
@@ -21,6 +21,7 @@ In the image above, we can see the different parts of the MVC. We'll  take a loo
 The controller is typically the first part of the MVC that the browser and user will interact with. A user would send a request to the server, then the controller would decide what happens with that request As you can see, the controller could render a view and send it back to the browser. It could be a simple GET request which, when sent to the controller, will render the page associated with that route. Here's an example:
 
 ```javascript
+// Specifies a Model to use
 const Todo = require('../models/Todo')
 
 module.exports = {
